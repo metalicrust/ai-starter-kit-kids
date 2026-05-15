@@ -11,6 +11,7 @@ A lightweight MVP landing page and guided preview for a 3-project family AI mini
   - Design a Comic Book Character
 - A guided "Start the Kit" preview with steps and starter prompts
 - Parent safety guidance
+- Placeholder parent feedback form with local confirmation message only
 - Placeholder email interest form with local confirmation message only
 
 ## Tech stack
@@ -51,4 +52,4 @@ No environment variables are required for this MVP.
 
 ## Notes
 
-This MVP intentionally does not include authentication, payments, a database, paid APIs, OpenAI API keys, or a real mailing list integration.
+This MVP intentionally does not include authentication, payments, a database, paid APIs, OpenAI API keys, real analytics, a real feedback store, or a real mailing list integration.
