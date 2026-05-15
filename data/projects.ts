@@ -21,21 +21,22 @@ export const projects: KitProject[] = [
     description:
       "Kids invent a superhero with powers, an origin story, costume, values, and a mission.",
     output:
-      "A superhero profile with a name, powers, short origin story, and optional image prompt.",
+      "A superhero profile with a name, powers, short origin story, and a colorful original costume image prompt.",
     tools:
       "ChatGPT or another free AI chatbot, plus an optional image generator if available.",
     time: "20-30 minutes",
-    childMakes: "A hero identity, powers, mission, and costume ideas.",
+    childMakes:
+      "A hero identity, powers, mission, costume ideas, and an image prompt for the hero's look.",
     parentHelps:
       "Ask guiding questions, review the AI response, and help keep the hero kind and age-appropriate.",
     steps: [
       "Choose a hero name, special power, and one positive value the hero stands for.",
       "Paste the starter prompt into an AI chatbot and answer its questions together.",
       "Pick the best ideas from the AI response and rewrite any parts in the child's own words.",
-      "Create a final hero profile and optional image prompt for drawing or image generation.",
+      "Create a final hero profile and a colorful costume image prompt for drawing or image generation.",
     ],
     prompt:
-      "You are helping a parent and child create an original superhero. Ask us 5 simple questions about the hero's name, powers, costume, values, and mission. Then create a kid-friendly superhero profile with a short origin story, strengths, a weakness, and an optional image prompt. Keep it positive, safe, and age-appropriate for a child ages 7 to 13.",
+      "You are helping a parent and child create an original superhero. Ask us 5 simple questions about the hero's name, powers, costume, values, and mission. Then create a kid-friendly superhero profile with a short origin story, strengths, a weakness, and a detailed image prompt for a colorful, original superhero costume that would be exciting for a child to see or draw. Keep it positive, safe, and age-appropriate for a child ages 7 to 13.",
     accent: "bg-[#ffcc4d]",
   },
   {
